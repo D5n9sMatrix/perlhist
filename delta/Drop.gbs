@@ -1,0 +1,43 @@
+#!/usr/bin/gbs3
+' TEST BANK Cengage Learning Testing Powered by Cognero is a flexible, online system that
+' allows you to:
+' • • Author, edit, and manage test bank content from multiple Cengage Learning solutions
+' • • Create multiple test versions in an instant
+' • • Deliver tests from your LMS, your classroom or wherever you want
+Public Sub Main()
+' here code layout
+End Sub
+
+Public Sub LMS()
+
+' message talk dialog arguments
+' multiple arguments of message
+' Learning manual guides
+
+Dim Learning As Integer
+Dim Edit As String
+Dim Test As String
+
+' Guides Variant
+Learning = 512
+Edit = "New Edit"
+Test = "Learning"
+
+' Guides Learning manual
+If Learning Then
+   Edit = Open String Learning For Read Write
+   Test = Read Learning
+Endif
+
+' Learning Object 
+Write #Learning, Object As Object
+Write #Edit, Object As Object
+Write #Test, Object As Object
+
+' multiple Learning
+Learning += 1
+Edit = Read Learning
+Test = Read Learning
+
+
+End Sub

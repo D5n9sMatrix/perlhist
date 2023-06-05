@@ -1,0 +1,42 @@
+#!/usr/bin/gbs3
+
+' Instructor Resources
+' The following teaching tools are available For download at our Instructor Companion Site.
+' Simply search For this text at sso.cengage.com.An instructor login Is Required.
+
+Public Sub Main()
+' here code Layout
+End Sub
+
+Public Sub InstructorRecursor_Click()
+
+Dim OnClick As Integer
+Dim ButtonClick As Integer
+Dim CheckLink As Integer
+Dim WikiPedia As Long
+Dim Run As Float
+Dim Code As String
+
+' call info resources jobs
+' relative click ButtonClick
+' value call WikiPedia
+
+OnClick = 1
+ButtonClick = 1
+CheckLink = 512
+Run = 2.1
+WikiPedia = 512
+
+If OnClick Then
+   ButtonClick = Read OnClick 
+   CheckLink = Read OnClick
+   WikiPedia += 1
+   Run = Sin(2.1)   ' Run load Append running Layout Files
+Endif
+
+Write #OnClick, Object As Object
+Write #ButtonClick, Object As Object
+Write #WikiPedia, Object As Object
+Write #Run, Object As Object
+
+End Sub

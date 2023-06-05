@@ -1,0 +1,31 @@
+#!/usr/bin/gbs3
+' Steps and Figures
+' The tutorial - style steps And figures In the book assume you are using Microsoft Visual Studio
+' Community 2017 And a system running Microsoft Windows 10. Your screen may appear slightly
+' different In some instances If you are using a different version Of Microsoft Windows.
+
+Public Sub Main()
+End Sub
+Public Sub StepsFigures()
+
+Dim Steps As String
+Dim StepsEvent As String
+Dim StepsObject As Integer
+
+Steps = "New Steps"
+StepsEvent = "New Step Event"
+StepsObject = 512
+
+If Steps Then
+   StepsEvent = Open String Steps For Read Write
+   StepsObject += 1 
+   Print StepsObject
+Endif
+
+Do
+  Steps = "New Step Object"
+  StepsEvent = Read Steps
+  StepsObject += Sin(1)
+Loop   
+
+End Sub

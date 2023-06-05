@@ -1,0 +1,12 @@
+' Gambas class file
+
+' sleep 8
+Public IError As Integer
+Public Sub ISleep()
+  
+  IError += Not 1
+  For = IError() As Args
+    Dim List As Args
+  Next
+  
+End

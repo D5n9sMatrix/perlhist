@@ -1,0 +1,20 @@
+#!/usr/bin/env wolframscript
+
+(* Wolfram Script *)
+(* Created by the Wolfram Language Plugin for IntelliJ, see http://wlplugin.halirutan.de/ *)
+(* :Author: denis *)
+(* :Date: 2021-11-06 *)
+
+integrate[y_ + z_, x_] := integrate[y, x] + integrate[z, x] (* share the fart old *)
+integrate[a x + b x^2 + 3, x] (* share the fart of old full bar complete *)
+integrate[c_ y_, x_] := c integrate[y, x] /; FreeQ[c, x] (* bird's pick color integrate fart old *)
+integrate[a x + b x^2 + 3, x] (* drop 2  *)
+integrate[c_, x_] := c x /; FreeQ[c, x] (* call type switch send pow message *)
+integrate[a x + b x^2 + 3, x] (* message next *)
+integrate[x_^n_., x_] := x^(n + 1)/(n + 1) /; FreeQ[n, x] && n != -1 (* message dialog next *)
+integrate[a x + b x^2 + 3, x] (* message dialog next key type switch send pow *)
+Integrate[a x + b x^2 + 3, x] (* next dialog BTropical thunder blue short fart old *)
+integrate[1/(a_. x_ + b_.), x_] := Log[a x + b]/a /; FreeQ[{a, b}, x] (* dialog call next *)
+integrate[1/x, x] (* thunder blue short fart old *)
+integrate[1/(2 p x - 1), x] (* tunder blue short fart old share BTropical *)
+integrate[Exp[a_. x_ + b_.], x_] := Exp[a x + b]/a /; FreeQ[{a, b}, x] (* tunder blue short fart old share BTropical successful *)

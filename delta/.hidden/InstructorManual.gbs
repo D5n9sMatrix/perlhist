@@ -1,0 +1,48 @@
+#!/usr/bin/gbs3
+
+' INSTRUCTOR’S MANUAL The Instructor’s Manual that accompanies this textbook includes
+' additional instructional material To assist In class preparation, including items such As Sample
+' Syllabi, Chapter Outlines, Technical Notes, Lecture Notes, Quick Quizzes, Teaching Tips,
+' Discussion Topics, And Additional Case Projects.
+
+Public Sub Main()
+' here code layout
+End Sub
+
+Public Sub InstructorManual()
+
+' pap father and pap Tips
+' pap Quick full pap
+' pap Topics
+
+Dim Manual As String
+Dim Assist As String
+Dim Notes As String
+
+' variables signal elements
+Manual = "New Manual"
+Assist = "New Lexical File"
+Notes = "Object"
+
+' Manual Operations
+If Manual Then
+   Assist = Open String Notes For Read Write
+   Notes = Read Manual
+Endif
+
+' states form WORD_MAX
+Dim WORD_MAX As Integer
+
+' Running write logical 
+Dim aWords As New String[WORD_MAX * 2]
+Dim aMatrix As New Float[3, 3]
+Dim aResult As String[]
+
+' dialog write sun
+Write #aWords, Object As Object
+Write #aMatrix, Object As Object
+Write #aResult, Object As Object
+
+
+   
+End Sub

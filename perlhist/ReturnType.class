@@ -1,0 +1,29 @@
+' Gambas class file
+
+' dialog latter expression numeric quatium value of system
+' utilize method of lower custimzed easy system in values
+' class math tools of calculate the sphere logic numeric
+' move the system to user the type simple method say
+' license to yield 
+' usage:.
+
+Public ICounter As Integer
+Public Sub Test()
+  
+  String = Str(value As Variant) As String
+
+  Dim Home As Integer
+  Dim Room As Integer
+  Dim Sale As Integer
+  
+  
+  For = Exp(Value As Float) As Float
+
+  Dim Home As Integer
+  Dim Room As Integer
+  Dim Sale As Integer
+    
+  Next Exp
+  
+End
+

@@ -1,0 +1,14 @@
+' Gambas class file
+
+' method vectors value handle numerical expression magic event
+' books stables sort value numetrical layout value handles event
+' utilized method easy objective handle
+Public List As Event 
+Public Sub Object()
+  
+  List = Event ( Of Object As Args) As Integer
+  For = Object(Args) As Event 
+    Dim Args As Event 
+  Next Object
+  
+End

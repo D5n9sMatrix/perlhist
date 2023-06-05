@@ -1,0 +1,16 @@
+' Gambas class file
+
+' sleep 8
+Public IsLower As String
+Public Sub Sleep()
+  ' String value handle numeric accounts
+  IsLower = String(Length As Integer, Pattern As String) As String
+  For = Sleep(Length As Integer, Pattern As String)
+    Dim Length As Integer
+    Dim Pattern As String    
+  Next Sleep 
+    
+End
+
+
+ 

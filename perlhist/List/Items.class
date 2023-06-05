@@ -1,0 +1,16 @@
+' Gambas class file
+
+' pix value numeric accounts handle
+' stable sort value numeric refresh
+' calculate layout.
+' usage:.
+
+Public IPix As Integer
+Public Sub IHandle()
+  
+  IPix = Integer( Of IHandle As Args) As Array
+  For = IHandle(Args) As Array
+    Dim Args As Array
+  Next IHandle
+  
+End

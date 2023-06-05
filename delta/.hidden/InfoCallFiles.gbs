@@ -1,0 +1,163 @@
+#!/usr/bin/gbs3
+
+' APPENDICES Appendix A summarizes the GUI design guidelines mentioned in the chapters,
+' making it easier For the student To follow the guidelines when designing an application ’s interface.
+' Appendix B contains additional topics that can be covered along With ( Or anytime after)a
+' specified chapter.
+
+Public InfoCallFiles As String
+
+Public Sub Main()
+   ' here Create Layout
+End Sub
+
+Public Sub Append_A_Click()
+
+Dim GUI As String
+Dim Design As String
+Dim Topics As String
+Dim Guidelines As String
+
+
+End Sub
+
+Public Sub Append_B_Click()
+
+Dim Follow As String
+Dim Easier As String
+Dim Covered As String
+Dim Timer As String
+
+
+End Sub
+
+Public Sub Append_C_Click()
+
+Dim Appendix As String
+Dim RunTimes As String
+Dim LogicHow As Integer 
+
+End Sub
+
+Public Sub Appendix_D_Click()
+
+Dim Cheat As String
+Dim Sheet As String
+Dim Their As Float
+
+
+End Sub
+
+' Appendix C teaches students how to locate and correct errors (syntax, logic,
+' And run Time) In their code.The appendix shows students how To Step through their code And
+' also how To Create breakpoints
+
+
+Public Sub Append_A_Action2_Click()
+
+Dim Appendix As String
+Dim RunTimes As String
+Dim LogicHow As Integer 
+
+
+If Appendix Then
+   RunTimes = "Running States"
+   LogicHow = 512
+Endif
+
+Do 
+   Appendix = Open String RunTimes For Read Write
+   LogicHow += Log(1)
+   Print LogicHow
+Loop   
+End Sub
+Public Sub Append_B_Action1_Click()
+
+Dim GUI As String
+Dim Design As String
+Dim Topics As String
+Dim Guidelines As Integer
+
+If GUI Then
+   Design = "New Design"
+   Topics = "New Topics"
+   Guidelines = 512
+Endif
+
+Do 
+   GUI = Open String Design For Read Write
+   Topics = Open String GUI For Read Write
+   Guidelines += Sin(1)    
+Loop   
+   
+End Sub
+
+Public Sub Append_C_Action3_Click()
+
+Dim Follow As String
+Dim Easier As String
+Dim Covered As String
+
+
+If Follow Then
+   Easier = "New Easier"
+   Covered = "New Covered"
+Endif
+
+Do 
+   Follow = Open String Easier For Read Write
+   Easier = "New Follow Easier"
+   Covered = "New Follow Covered"
+Loop   
+   
+End Sub
+
+' Appendix D contains a Cheat Sheet that summarizes important
+' concepts covered In the chapters, such As The syntax Of statements, methods, And so on.The
+' Cheat Sheet provides a convenient place For students To locate the information they need As
+' they are creating And coding their applications.Appendix E contains Case Projects that can be
+' assigned after completing specific chapters In the book.
+
+Public Sub Appendix_D_Action4_Click()
+
+Dim Cheat As String
+Dim Sheet As String
+Dim Their As Float
+
+Cheat = "New Cheat"
+Sheet = "New Sheet"
+Their = 1.2
+
+If Cheat Then
+   Sheet = Open String Cheat For Read Write
+   Their += 1.2
+   Print Their    
+Endif
+
+End Sub
+
+' UPDATED VIDEOS These notes direct students to videos that accompany many
+' chapters In the book.The videos explain And / Or demonstrate one Or more Of the
+' chapter ’s concepts. The videos have been revised from the previous edition and are
+' available via the Optional MindShell For this text.
+
+Public Sub UPDATED_VIDEOS()
+
+Dim MindShell As String
+Dim Videos As Integer
+Dim Books As Integer
+
+MindShell = "New MidShell"
+Videos = 512
+Books = 512
+
+If MindShell Then
+   Videos += Sin(4)
+   Books += Cos(3)
+Endif
+
+For MindShell = Videos To Books Step Videos
+    Books += Cos(3) 
+Next
+
+End Sub
